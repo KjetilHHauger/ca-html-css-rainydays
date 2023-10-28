@@ -1,0 +1,105 @@
+header {
+    height: 84px;
+    background-color: white;
+    border-bottom: 1px solid #374151;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    width: 100vw;
+}
+
+.navbarLeft {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.navbarCenter {
+    display: none;
+}
+
+.navbarRight {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    margin-left: auto;
+}
+
+.fa-solid {
+    font-size: 2rem;
+}
+
+.fa-bars {
+    margin-left: 1.5rem;
+}
+
+.fa-bag-shopping {
+    font-size: 1.7rem;
+}
+
+.search {
+    display: none;
+    margin-right: 1.5rem;
+    font-size: 1.7rem;
+}
+
+/* Tablet and desktop */
+@media only screen and (min-width: 1024px) {
+    header {
+        font-size: 20px;
+        line-height: 39px;
+        letter-spacing: -2%;
+    }
+
+    .navbarLeft {
+        margin-left: 70px;
+    }
+
+    .navbarCenter {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbarCenter a {
+        text-decoration: none;
+        color: #374151;
+    }
+
+    .navbarRight {
+        margin-right: 70px;
+    }
+
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin-left: 56px;
+    }
+
+    .navbar li:hover {
+        text-decoration: underline;
+    }
+
+    #jackets {
+        margin-left: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .search {
+        display: inline-block;
+    }
+
+}
