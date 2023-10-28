@@ -1,0 +1,32 @@
+ul.breadcrumb {
+    list-style: none;
+    background-color: #ffffff;
+    margin-left: 35px;
+    padding: 16px 0 8px 0; 
+    width: 210px;  
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 16px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 4px;
+    color: #374151;
+    content: "/";
+}
+
+ul.breadcrumb a {
+    text-decoration: none;
+}
+
+.breadcrumb li:hover {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    ul.breadcrumb {
+        margin-left: 70px; 
+    }
+}

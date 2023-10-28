@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    row-gap: 48px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    width: 360px;
+}
+
+.productColor {
+    margin-left: 200px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .grid {
+        column-gap: 30px;
+    }
+
+}
+
+
