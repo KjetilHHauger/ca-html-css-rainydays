@@ -1,9 +1,13 @@
+.breadcrumb {
+    font-family: 'Poppins', sans-serif;
+}
+
 ul.breadcrumb {
     list-style: none;
     background-color: #ffffff;
     margin-left: 35px;
     padding: 16px 0 8px 0; 
-    width: 210px;  
+    width: 260px;  
 }
 
 ul.breadcrumb li {
