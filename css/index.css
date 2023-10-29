@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 84px 0;
+}
+
+.mainContent img {
+    width: 50vw;
+}
+
+.mainContent h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0 0 0 / 30%);
+    width: 190px;
+    height: 64px;
+    color: #374151;
+    background-color: rgb(255 255 255 / 30%);
+    margin: 0;
+    font-size: 42px;
+    line-height: 63px;
+    letter-spacing: -4%;
+    font-weight: 600;
+}
+
+.mainContent h1:hover {
+    background-color: rgb(255 255 255 / 70%);
+}
+
+.mainContent h1:active {
+    background-color: rgb(255 255 255 / 90%);
+}
+
+.men h1 {
+    position: absolute;
+    top: 460px;
+    left: 35px;
+}
+
+.women h1 {
+    position: absolute;
+    top: 460px;
+    right: 35px;
+}
+
+.hero h2 {
+    position: absolute;
+    font-size: 36px;
+    letter-spacing: -3%;
+    line-height: 39px;
+    color: #FFF;
+    margin-top: 94px;
+    margin-left: 35px;
+    font-weight: 400;
+}
+
+.comfort {
+    position: absolute;
+    color: #F4DE12;
+    font-weight: 800;
+    font-size: 42px;
+    letter-spacing: 0;
+    line-height: 63px;
+    margin-top: 158px;
+    margin-left: 108px;
+    width: 287px;
+}
+
+.heroImageMobile {
+    width: 100vw;
+    margin-bottom: -7px;
+}
+
+.heroImageDesktop {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .mainContent {
+        height: 100vh;
+    }
+
+    .mainContent img {
+        width: 500px;
+    }
+
+    .men h1 {
+        top: 790px;
+        left: 540px;
+    }
+    
+    .women h1 {
+        top: 790px;
+        right: 540px;
+    }
+
+    .heroImageMobile {
+        display: none;
+    }
+    
+    .heroImageDesktop {
+        display: block;
+        width: 100vw;
+    }
+
+    .hero h2 {
+        margin-top: 173px;
+        margin-right: 192px;
+        margin-left: 55%;
+        font-size: 64px;
+    }
+    
+    .comfort {
+        margin-top: 275px;
+        margin-left: 60%;
+        font-size: 80px;
+        width: 601px;
+    }
+}

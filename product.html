@@ -11,8 +11,9 @@
     />
     <title>Rainydays | Products</title>
     <link rel="stylesheet" href="css/navbar.css"/>
-    <link rel="stylesheet" href="css/styles.css"/>
     <link rel="stylesheet" href="css/breadcrumb.css"/>
+    <link rel="stylesheet" href="css/product.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
@@ -28,7 +29,9 @@
 <header>
     <nav class="navbar">
         <div class="navbarLeft">
-            <img src="assets/logo/logoblack.svg" href="#index" />
+            <a href="#index.html">
+                <img src="assets/images/logo/logoblack.svg"/>
+            </a>
         </div>
         <div class="navbarCenter">
             <ul>
@@ -53,14 +56,102 @@
         </div>
     </nav>
 </header>
-<main id="products">
+<main>
     <div class="breadcrumbContainer">
         <ul class="breadcrumb">
             <li><a href="index.html">Home</a></li>
             <li><a href="products.html">Mens</a></li>
-            <li>Raincoat</li>
+            <li>Drizzle Defender</li>
         </ul>
     </div>
+    <section class="product">
+        <picture class="mainImage">
+            <img src="assets/images/jackets/yellow_rain/yellow_rain_1.png" alt="Front view Drizzle Defender">
+        </picture>
+        <p class="gender">Men</p>
+        <h2 class="headerTitle">Drizzle defender</h2>
+        <p class="price">2000 NOK</p>
+        <button class="cartBtn">Add to cart</button>
+        <hr>
+        <section class="colorNameContainer">
+            <p>color</p>
+            <p class="colorName">Yellow</p>
+        </section>
+        <section class="color">
+            <div class="yellow">
+                yellow
+            </div>
+            <div class="petrolBlue">
+                Petrol Blue
+            </div>
+            <div class="red">
+                Red
+            </div>
+            <div class="limaBeanGreen">
+                Lima bean green
+            </div>
+        </section>
+        <section class="altView">
+            <picture class="back">
+                back
+            </picture>
+            <picture class="side">
+                side
+            </picture>
+            <picture class="pocket">
+                pocket
+            </picture>
+            <picture class="fabric">
+                fabric
+            </picture>
+        </section>
+        <section class="description">
+            <div class="descriptionTitle">
+                Description
+            </div>
+            <div class="sizing">
+                <div class="small">
+                    S
+                </div>
+                <div class="medium">
+                    M
+                </div>
+                <div class="large">
+                    L
+                </div>
+                <div class="extraLarge">
+                    XL
+                </div>
+            </div>
+            <p>
+                Drizzle Defender, our home and your essential wardrobe staple is a straight-fit raincoat in sturdy and hard-wearing waterproof fabric. Expertly made, it’s tailored with double-welded seams for complete protection against the rain. The drawstring hood and under-arm eyelets add ease of movement and comfort in uncomfortable weather.
+
+                Made from sustainable materials
+            </p>
+        </section>
+    </section>  
+    <hr class="hrReviewTop">
+    <section class="reviewOne">
+        <picture class="userImage">
+            user image
+        </picture>
+        <p class="userName">Kjell Kåre</p>
+        <p class="verified">Verified buyer</p>
+        <p class="reviewText">
+            The yellow raincoat I recently purchased has been a game-changer during this rainy season. Its bright and cheerful color instantly lifts my spirits on gloomy days. Not only does it keep me completely dry, but it also adds a stylish pop to my outfits. The breathable material prevents that stuffy feeling you often get with raincoats. The hood, adjustable cuffs, and spacious pockets are thoughtful additions. Plus, knowing it's made from sustainable materials makes me feel good about my choice.
+        </p>
+    </section>
+    <hr class="hrReviewBreak">
+    <section class="reviewTwo">
+        <picture class="userImage">
+            user image
+        </picture>
+        <p class="userName">Truls</p>
+        <p class="verified">Verified buyer</p>
+        <p class="reviewText">
+            The yellow raincoat I recently purchased has been a game-changer during this rainy season. Its bright and cheerful color instantly lifts my spirits on gloomy days. Not only does it keep me completely dry, but it also adds a stylish pop to my outfits. The breathable material prevents that stuffy feeling you often get with raincoats. The hood, adjustable cuffs, and spacious pockets are thoughtful additions. Plus, knowing it's made from sustainable materials makes me feel good about my choice.
+        </p>
+    </section>
 </main>
 </body>
 </html>
