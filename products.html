@@ -7,13 +7,13 @@
       rel="icon"
       image="image/img"
       sizes="32x32"
-      href="assets/logo/logogreen.svg"
+      href="assets/images/logo/logogreen.svg"
     />
-    <title>Rainydays | Products</title>
-    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Rainydays | Jackets - Men</title>
     <link rel="stylesheet" href="css/navbar.css"/>
     <link rel="stylesheet" href="css/breadcrumb.css"/>
     <link rel="stylesheet" href="css/products.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,7 +29,9 @@
 <header>
     <nav class="navbar">
         <div class="navbarLeft">
-            <img src="assets/logo/logoblack.svg" href="#index" />
+            <a href="index.html">
+                <img src="assets/images/logo/logoblack.svg"/>
+            </a>
         </div>
         <div class="navbarCenter">
             <ul>
@@ -64,28 +66,29 @@
     </div>
     <section class="grid">
     <div class="product">
-        <div class="image">
-            <img
-            src="assets/images/jackets/yellowrain/yellowrain1.png"
-            height="398px"
-            href="product.html"
-            alt="Yellow raincoat"
-            />
-        </div>
-        <div class="productName">
-            Drizzle Defender
-        </div>
-        <span class="productPrice">
-            NOK 2000
-        </span>
-        <span class="productColor">
-            4 colours
-        </span>
+        <a href="product.html" 
+            alt="Yellow raincoat">
+            <div class="image">
+                <img
+                src="assets/images/jackets/yellow_rain/yellow_rain_1.png"
+                height="398px"
+                />
+            </div>
+        </a>
+            <div class="productName">
+                Drizzle Defender
+            </div>
+            <span class="productPrice">
+                NOK 2000
+            </span>
+            <span class="productColor">
+                4 colours
+            </span>
         </div>
         <div class="product">
             <div class="image">
                 <img
-                src="assets/images/jackets/extra/raincoat2.png"
+                src="assets/images/jackets/extra/raincoat_2.png"
                 height="398px"
                 href="#"
                 alt="Puddle Armour"
@@ -104,7 +107,7 @@
         <div class="product">
             <div class="image">
             <img
-            src="assets/images/jackets/extra/raincoat3.png"
+            src="assets/images/jackets/extra/raincoat_3.png"
             height="398px"
             href="#"
             alt="Downpour Defender"
@@ -123,7 +126,7 @@
         <div class="product">
             <div class="image">
                 <img
-                src="assets/images/jackets/extra/raincoat4.jpg"
+                src="assets/images/jackets/extra/raincoat_4.jpg"
                 height="398px"
                 href="#"
                 alt="Rescue Armour"
@@ -143,7 +146,7 @@
             <div class="image">
                 <img
                 class="image"
-                src="assets/images/jackets/petrolblue/petrolblue1.png"
+                src="assets/images/jackets/extra/raincoat_5.png"
                 height="398px"
                 href="#"
                 alt="Hydro Evader"
@@ -163,7 +166,7 @@
             <div class="image">
                 <img
                     class="image"
-                    src="assets/images/Jackets/extra/raincoat6.jpg"
+                    src="assets/images/Jackets/extra/raincoat_6.jpg"
                     height="398px"
                     href="#"
                     alt="Scott Trainer"
@@ -183,7 +186,7 @@
             <div class="image">
                 <img
                     class="image"
-                    src="assets/images/jackets/extra/raincoat7.jpg"
+                    src="assets/images/jackets/extra/raincoat_7.jpg"
                     height="398px"
                     href="#"
                     alt="Ski Protector"
@@ -203,7 +206,7 @@
             <div class="image"> 
                 <img
                     class="image"
-                    src="assets/images/jackets/extra/raincoat8.jpg"
+                    src="assets/images/jackets/extra/raincoat_8.jpg"
                     height="398px"
                     href="#"
                     alt="Cargo guard"
@@ -223,7 +226,7 @@
             <div class="image">
                 <img
                     class="image"
-                    src="assets/images/jackets/extra/raincoat9.jpg"
+                    src="assets/images/jackets/extra/raincoat_9.jpg"
                     height="398px"
                     href="#"
                     alt="Scott biker guard"
@@ -243,7 +246,7 @@
             <div class="image">
                 <img
                     class="image"
-                    src="assets/images/jackets/extra/raincoat10.jpg"
+                    src="assets/images/jackets/extra/raincoat_10.jpg"
                     height="398px"
                     href="#"
                     alt="Hydro fleece"
@@ -263,7 +266,7 @@
             <div class="image">
                 <img
                     class="image"
-                    src="assets/images/jackets/extra/raincoat11.jpg"
+                    src="assets/images/jackets/extra/raincoat_11.jpg"
                     height="398px"
                     href="#"
                     alt="Biker"
@@ -283,7 +286,7 @@
             <div class="image">
                 <img
                     class="image"
-                    src="assets/images/jackets/extra/Raincoat12.png"
+                    src="assets/images/jackets/extra/raincoat_12.png"
                     height="398px"
                     href="#"
                     alt="Rainy"
@@ -301,5 +304,222 @@
         </div>
       </section>
     </main>
+    <footer class="footer">
+        <form class="languageForm">
+            <label for="language"></label>
+                <select name="language" id="language">
+                    <option>English</option>
+                    <option>Norwegian</option>
+                    <option>Swedish</option>
+                    <option>Suomi</option>
+                </select>
+        </form>
+        <form class="currencyForm">
+            <label for="currency"></label>
+                <select name="currency" id="currency">
+                    <option>Norway (NOK)</option>
+                    <option>English (GBP)</option>
+                    <option>Swedish (SEK)</option>
+                    <option>Suomi (EUR)</option>
+                </select>
+        </form>
+        <span class="footerHr"></span>
+        <p class="warrantyText">
+            Get 7 years warranty, earn cash points on all-full price purchases, sign up for product testing and join in on exclusive adventures and events.
+        </p>
+        <!-- Sign up button -->
+        <span class="signUp">
+            <a href="#">
+                <button class="signUpBtn">
+                    Sign up
+                </button>
+            </a>
+        </span>
+        <p class="subscribeNewsletter">
+            Subscribe to our newsletter
+        </p>
+        <form class="subscribeForm">
+            <label for="footerEmail">
+                <input 
+                    type="email" 
+                    name="myEmail" 
+                    id="footerEmail" 
+                    placeholder="Name@example.com"
+                />
+                <button class="subscribeButton">
+                    Submit
+                </button>
+            </label>
+        </form>
+        <ul class="shoppingHelp">
+            <span class="title">
+                SHOPPING HELP
+            </span>
+            <li>
+                <a href="#">
+                Shipping
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Return
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Size guide page
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Technology and materials
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Terms and condition
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Customer Service
+                </a>
+            </li>
+        </ul>
+        <ul class="repairAndCare">
+            <span class="title">
+                REPAIR AND CARE
+            </span>
+            <li>
+                <a href="#">
+                    Repair
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Service order registration
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Warranty
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Product care
+                </a>
+            </li>
+        </ul>
+        <ul class="aboutRainydays">
+            <span class="title">
+                ABOUT RAINYDAYS
+            </span>
+            <li>
+                <a href="#">
+                    Our history
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Our responsibility
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Loyalty program
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Career opportunities
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    5% for nature
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Our ambassadors
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Pro user
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Rainydays blog
+                </a>
+            </li>
+        </ul>
+        <ul class="whereToBuy">
+            <span class="title">
+                WHERE TO BUY
+            </span>
+            <li>
+                <a href="#">
+                    All Rainydays Stores
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Outlet
+                </a>
+            </li>
+        </ul>
+        <ul class="follow">
+            <span class="title">
+                FOLLOW RAINYDAYS
+            </span>
+            <li>
+                <i class="fa-brands fa-facebook-f" style="color: white"></i>
+                <a href="http://www.facebook.com" target="_blank">
+                    Facebook
+                </a>
+            </li>
+            <li>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <a href="http://www.twitter.com" target="_blank">Twitter</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                <a href="http://www.youtube.com" target="_blank">Youtube</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                <a href="http://www.linkedin.com" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <a href="http://www.instagram.com" target="_blank">Instagram</a>
+            </li>
+        </ul>
+        <ul class="info">
+            <span class="title">
+                INFO
+            </span>
+            <li>
+                <a href="#">
+                    Terms and conditions
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Cookie and privacy
+                </a>
+            </li>
+        </ul>
+        <span class="logoBottomLeft">
+            <img 
+                src="assets/logo/logogreen.svg" alt="Logo rainydays""/>
+            <p class="copyright">
+                © 2023 Rainydays.no 999 999 999 MVA
+            </p>
+        </span>
+    </footer>
   </body>
 </html>
