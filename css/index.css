@@ -9,9 +9,9 @@ body {
 
 .mainContent {
     display: flex;
+    height: 100vh;
     justify-content: center;
-    align-items: center;
-    padding: 84px 0;
+    padding-top: 150px;
 }
 
 .mainContent img {
@@ -21,7 +21,6 @@ body {
 .mainContent h1 {
     display: flex;
     justify-content: center;
-    align-items: center;
     border: 1px solid rgb(0 0 0 / 30%);
     width: 190px;
     height: 64px;
@@ -42,16 +41,20 @@ body {
     background-color: rgb(255 255 255 / 90%);
 }
 
+.men .women{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .men h1 {
-    position: absolute;
-    top: 460px;
-    left: 35px;
+    justify-content: center;
+    margin: auto;
 }
 
 .women h1 {
-    position: absolute;
-    top: 460px;
-    right: 35px;
+    justify-content: center;
+    margin: auto;
+    
 }
 
 .hero h2 {
@@ -88,7 +91,8 @@ body {
 
 @media only screen and (min-width: 1024px) {
     .mainContent {
-        height: 100vh;
+        padding-top: 36px;
+
     }
 
     .mainContent img {
@@ -96,13 +100,13 @@ body {
     }
 
     .men h1 {
-        top: 790px;
-        left: 540px;
+        position: relative;
+        top: -130px;
     }
     
     .women h1 {
-        top: 790px;
-        right: 540px;
+        position: relative;
+        top: -130px;
     }
 
     .heroImageMobile {
