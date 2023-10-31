@@ -15,7 +15,6 @@ body {
     margin-left: 35px;
     margin-right: 35px;
     row-gap: 48px;
-    
 }
 
 .image {
@@ -25,6 +24,7 @@ body {
 
 .product {
     width: 360px;
+    margin-bottom: 24px;
 }
 
 .productColor {
