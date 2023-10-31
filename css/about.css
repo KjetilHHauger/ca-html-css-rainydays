@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.aboutImage {
+    display: flex;
+    
+}
+.aboutImage img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    
+}
+
+.aboutText {
+    margin: 0 35px;
+    color: #374151;
+}
+
+.aboutText h2 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.aboutText p {
+    font-size: 20px;
+}
