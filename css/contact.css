@@ -1,0 +1,239 @@
+:root {
+    --darkGray: #374151;
+    --gray: #909090;
+    --transparentBlack30: #0000004D;
+    --transparentBlack10: #0000001A
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainContact {
+    margin: 0 70px;
+    color: var(--darkGray);
+}
+
+.support h1, .contactText h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.support p {
+    font-size: 20px;
+}
+
+.contactText p {
+    font-size: 16px;
+}
+
+.formInput label {
+    font-size: 20px;
+    line-height: 39px;
+}
+
+.formInput input {
+    border-radius: 0;
+    border: 1px solid var(--gray);
+    width: 359px;
+    height: 48px;
+    color: var(--darkGray);
+    padding-left: 10px;
+}
+
+#categoryList {
+    border-radius: 0;
+    border: 1px solid var(--gray);
+    width: 359px;
+    height: 48px;
+    color: var(--darkGray);
+}
+
+.firstTwo {
+    display: flex;
+    gap: 104px;
+}
+
+.secondTwo {
+    display: flex;
+    gap: 104px;
+}
+
+.phone {
+position: relative;
+}
+
+.phone input {
+position: relative;
+padding-left: 40px;
+}
+
+.phoneFlag {
+position: absolute;
+top: 0;
+left: 4px;
+}
+
+.phoneFlag select {
+    border: none;
+}
+
+.thirdTwo {
+    display: flex;
+    gap: 104px;
+}
+
+.formMessage label {
+    font-size: 20px;
+    line-height: 39px;
+}
+
+#messageArea {
+    border-radius: 0;
+    border: 1px solid var(--gray);
+    color: var(--darkGray);
+    resize: auto;
+    resize: none;
+    height: 15em;
+    width: 88em;
+}
+
+.faqContactSubmit {
+    display: grid;
+    grid-template-columns: 360px auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "question submit"
+    "question contact";
+}
+
+.questions {
+    width: 360px;
+    font-size: 16px;
+    grid-area: question;
+    margin-bottom: 32px; 
+}
+
+.questions h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.questions select {
+    width: 360px;
+    border: none;  
+}
+
+.contactSubmit {
+    width: 360px;
+    height: 48px;
+    background-color: var(--gray);
+    border: none;
+    color: #fff;
+    font-size: 36px;
+    line-height: 39px;
+    letter-spacing: -3%;
+    grid-area: submit;
+    margin-left: auto;
+    margin-top: 32px;
+}
+
+.infoContact {
+    display: flex;
+    background-color: var(--transparentBlack10);
+    width: 598px;
+    height: 196px;
+    margin-top: 77px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    margin-left: auto;
+}
+
+.infoContact hr {
+    width: 328px;
+}
+
+.infoContact h5 {
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+.infoContact p {
+    margin: 0;
+}
+
+.openingHours {
+    grid-area: contact;
+    margin-left: 16px;
+}
+
+.openingHours hr {
+    color: var(--transparentBlack10);
+}
+
+.cet {
+    margin-left: 175px;
+}
+
+.flag img {
+    width: 24px;
+    height: 15px;
+}
+
+.infoContactRight {
+    margin: 28px 0 0 47px;
+}
+
+@media only screen and (max-width: 640px) {
+    .firstTwo {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .secondTwo {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .thirdTwo {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    #messageArea {
+        height: 15em;
+        width: 27em;
+    }
+
+    .faqContactSubmit {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 
+        "submit"
+        "contact"
+        "questions";
+    }
+
+    .contactSubmit {
+        margin-left: 0;
+        grid-area: submit;
+    }
+
+    .questions {
+        grid-area: questions; 
+    }
+
+    .infoContact {
+        display: block;
+        width: 360px;
+        height: 340px;
+        grid-area: contact;
+        margin-left: 0;
+    }
+}
