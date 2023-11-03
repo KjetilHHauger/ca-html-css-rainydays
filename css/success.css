@@ -1,0 +1,123 @@
+:root {
+    --darkGray: #374151;
+    --gray: #909090;
+    --transparentBlack30: #0000004D;
+    --transparentBlack10: #0000001A;
+    --moonstone: #73A6AD4D;
+}
+
+main {
+    margin: 0 35px;
+    color: var(--darkGray);
+}
+
+.successKlarnaImage img {
+    width: 86px;
+}
+
+.successOrderPlaced h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.successHrMobile {
+    margin-top: 1.5rem;
+}
+
+.successHrDesktop {
+    display: none;
+}
+
+.successOrderDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.successOrderDetails li {
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+.successOrderDetailsLeft li {
+    margin-left: -40px;
+}
+
+.successOrderDetailsLeft li:nth-child(1) {
+    font-weight: 600;
+}
+
+.successNeverMiss {
+    margin-top: 46px;
+    border: 1px solid;
+    padding: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.successOrderDetailsRight li:nth-child(2) {
+    font-weight: 600;
+}
+
+.successKlarna {
+    display: flex;
+    justify-content: space-between;
+}
+.successKlarnaApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #000000;
+    width: 161px;
+    height: 25px;
+    color: #fff;
+    font-size: 0.85rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .successMain {
+        width: 608px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .successKlarnaImage {
+        text-align: center;
+    }
+
+    .successHrMobile {
+        display: none;
+    }
+    
+    .successHrDesktop {
+        display: block;
+    }
+
+    .successOrderPlaced {
+        text-align: center;
+    }
+
+    .successOrderPlaced h1 {
+        font-size: 2.625rem;
+    }
+
+    .successNeverMiss {
+        width: 360px;
+        height: 155px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .successNeverMiss h2 {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .successNeverMiss p {
+        margin: 8px 0 0 0;
+        font-size: 1rem;
+    }
+
+    .successKlarna {
+        margin: 16px 0 0 0;
+    }
+
+}
