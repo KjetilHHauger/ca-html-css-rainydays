@@ -11,8 +11,9 @@
     />
     <title>Rainydays | Checkout</title>
     <link rel="stylesheet" href="css/navbar.css"/>
-    <link rel="stylesheet" href="css/styles.css"/>
     <link rel="stylesheet" href="css/breadcrumb.css"/>
+    <link rel="stylesheet" href="css/checkout.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
@@ -55,7 +56,7 @@
         </div>
     </nav>
 </header>
-<main id="products">
+<main class="checkout">
     <div class="breadcrumbContainer">
         <ul class="breadcrumb">
             <li>
@@ -66,6 +67,456 @@
             <li>Checkout</li>
         </ul>
     </div>
+    <section class="checkoutGridDesktop">
+    <section class="checkoutShopping">
+        <div class="checkoutShoppingBag">
+            <h1 class="checkoutShoppingTitle">Shopping bag (2)</h1>
+            <div class="checkoutProduct">
+                <img src="assets/images/jackets/yellow_rain/yellow_rain_1.png" alt="Yellow rain jacket">
+                <div class="checkoutProductText">
+                    <span class="checkoutProductTextHeader">
+                        <h2>Drizzle defender</h2>
+                        <i class="fa-regular fa-circle-xmark" style="color: #374151;"></i>
+                    </span>
+                    <p class="checkoutProductTextColor">Yellow</p>
+                    <span class="checkoutProductTextSizePrice">
+                        <p>S</p>
+                        <p>2 000 NOK</p>
+                    </span>
+                </div>
+            </div>
+            <div class="checkoutProduct">
+                <img src="assets/images/jackets/red_rain/red_rain_1.png" alt="Red rain jacket">
+                <div class="checkoutProductText">
+                    <span class="checkoutProductTextHeader">
+                        <h2>Drizzle defender</h2>
+                        <i class="fa-regular fa-circle-xmark" style="color: #374151;"></i>
+                    </span>
+                    <p class="checkoutProductTextColor">Red</p>
+                    <span class="checkoutProductTextSizePrice">
+                        <p>XL</p>
+                        <p>2 000 NOK</p>
+                    </span>
+                </div>
+            </div>
+            <span class="checkoutShipping">
+                <p>
+                    Shipping
+                </p>
+                <p>
+                    Free
+                </p>
+            </span>
+            <span class="checkoutTotal">
+                <p>
+                    Total
+                </p>
+                <p>
+                    4 000 NOK
+                </p>
+            </span>
+        </div>
+    </section>
+    <section class="checkoutInformation">
+        <form>
+            <h2>Your information</h2>
+            <label for="checkoutName">
+                Name
+            </label>
+            <br>
+            <input 
+                type="text" 
+                placeholder="Ola Norman" 
+                id="checkoutName"
+            />
+            <br>
+            <label for="checkoutCountry">
+                Country
+            </label>
+            <br>
+            <input 
+                type="text" 
+                placeholder="Norway" 
+                id="checkoutCountry"
+            />
+            <br>
+            <label for="checkoutPostalCode">
+                Postal code
+            </label>
+            <br>
+            <input 
+                type="text" 
+                placeholder="0000" 
+                id="checkoutPostalCode"
+            />
+            <br>
+            <label for="checkoutStreet">
+                Street
+            </label>
+            <br>
+            <input 
+                type="text" 
+                placeholder="Karl Johans gate 1" 
+                id="checkoutStreet"
+            />
+            <br>
+            <label for="checkoutEmail">
+                E-mail
+            </label>
+            <br>
+            <input 
+                type="email" 
+                placeholder="Ola@norman.no" 
+                id="checkoutEmail"
+            />
+        </form>
+    </section>
+    <section class="checkoutKlarna">
+        <form class="checkoutKlarnaForm">
+            <div class="checkoutPayments">Payments</div>
+            <div class="checkoutKlarnaBox">
+                <div>
+                    <input 
+                    type="radio" 
+                    name="checkoutKlarnaCard" 
+                    id="checkoutKlarnaCard">
+                    <label for="checkoutKlarnaCard">
+                        Pay with card
+                        <p>Add card details</p>
+                    </label>
+                </div>
+                <div class="checkoutIconCard">
+                <i class="fa-solid fa-credit-card" style="color: #374151;"></i>
+                </div>
+            </div>
+            <div class="checkoutKlarnaDaysBox">
+                <div class="checkoutKlarnaDaysLogo">
+                    <input 
+                    type="radio" 
+                    name="checkoutKlarnaDays" id="checkoutKlarnaDays">
+                    <label for="checkoutKlarnaDays">
+                        Pay in 30 days
+                        <p>
+                            Get what you love first
+                        </p>
+                    </label>
+                    <div class="checkoutIconCard">
+                        <img src="assets/images/payment/klarna.png" alt="Klarna logo">
+                    </div>
+                </div>
+                <div class="checkoutKlarnaDaysList">
+                    <ul>
+                        <li>
+                            <span>
+                                Pay in 30 days
+                            </span> 
+                                without interest of fees.
+                        </li>
+                        <li>
+                            Manage payments in the<a href="https://play.google.com/store/apps/details?id=com.myklarnamobile&hl=no&gl=US">Klarna app.</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="checkoutKlarnaDaysTerms">
+                    <a 
+                        href="#terms">
+                        Pay Later Terms and Conditions
+                    </a>
+                </div>
+            </div>
+            <div class="checkoutKlarnaBox">
+                <div class="checkoutKlarnaInterest">
+                    <input type="radio" name="checkoutKlarnaInterestInput"
+                    id="checkoutKlarnaInterestInput">
+                        <span>
+                            <label for="checkoutKlarnaInterest">
+                                4 interest-free payments
+                                <p>
+                                    auto-pay with you card
+                                </p>
+                            </label>
+                        </span>
+                    <div class="checkoutInterestIconCard">
+                        <img src="assets/images/payment/klarna.png" alt="Klarna logo">
+                    </div>
+                </div>
+            </div>
+            <div class="checkoutKlarnaBoxPayments">
+                <select name="checkoutKlarnaOptions" id="checkoutKlarnaOptions">
+                    <option disabled selected>Show more payment options</option>
+                    <option value="">More</option>
+                    <option value="">Options</option>
+                    <option value="">Here</option>
+                </select>
+
+            </div>
+            <input class="checkoutBtn" type="button" value="Checkout"/>
+        </form>
+    </section>
+    </section>
+    <section class="checkoutLoyalty">
+        <div class="checkoutLoyaltyProgram">
+            <div class="checkoutLoyaltyLeft">
+                <h3>
+                    Join our Loyalty Program
+                </h3>
+                <p>
+                    Get Cash Points and other exclusive benefits.
+                    Not a member? 
+                    <a href="#">
+                        Create account
+                    </a>
+                </p>
+            </div>
+            <div class="checkoutLoyaltyRight">
+            <button>Sign in</button>
+        </div>
+        </div>
+        <div class="checkoutPaymentShipping">
+            <p>
+                Free shipping above 999 NOK. Free returns in Norway.
+            </p>
+            <p>
+                7 years warranty.
+            </p>
+            <div>
+                
+                <div class="checkoutPaymentShippingAcceptShip">
+                    <div>
+                        <p>
+                            We accept
+                        </p>
+                        <img src="assets/images/payment/klarna.png" alt="Klarna logo">
+                        <img src="assets/images/payment/vipps-rgb-orange-neg.png" alt="Vipps logo">
+                        <img src="assets/images/payment/visa-logo-transparent-free-png.webp" alt="Visa logo">
+                        <img src="assets/images/payment/PayPal-Logo.png" alt="PayPal logo">
+                    </div>
+                    <div    class="checkoutPaymentShippingShip">
+                        <p>
+                            We ship with
+                        </p>
+                        <img src="assets/images/payment/Posten-logo.jpg" alt="Posten logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <footer class="footer">
+        <form class="languageForm">
+            <label for="language"></label>
+                <select name="language" id="language">
+                    <option>English</option>
+                    <option>Norwegian</option>
+                    <option>Swedish</option>
+                    <option>Suomi</option>
+                </select>
+        </form>
+        <form class="currencyForm">
+            <label for="currency"></label>
+                <select name="currency" id="currency">
+                    <option>Norway (NOK)</option>
+                    <option>English (GBP)</option>
+                    <option>Swedish (SEK)</option>
+                    <option>Suomi (EUR)</option>
+                </select>
+        </form>
+        <span class="footerHr"></span>
+        <p class="warrantyText">
+            Get 7 years warranty, earn cash points on all-full price purchases, sign up for product testing and join in on exclusive adventures and events.
+        </p>
+        <span class="signUp">
+            <a href="#">
+                <button class="signUpBtn">
+                    Sign up
+                </button>
+            </a>
+        </span>
+        <p class="subscribeNewsletter">
+            Subscribe to our newsletter
+        </p>
+        <form class="subscribeForm">
+            <label for="footerEmail">
+                <input 
+                    type="email" 
+                    name="myEmail" 
+                    id="footerEmail" 
+                    placeholder="Name@example.com"
+                />
+                <button class="subscribeButton">
+                    Submit
+                </button>
+            </label>
+        </form>
+        <ul class="shoppingHelp">
+            <span class="title">
+                SHOPPING HELP
+            </span>
+            <li>
+                <a href="#">
+                Shipping
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Return
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Size guide page
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Technology and materials
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Terms and condition
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Customer Service
+                </a>
+            </li>
+        </ul>
+        <ul class="repairAndCare">
+            <span class="title">
+                REPAIR AND CARE
+            </span>
+            <li>
+                <a href="#">
+                    Repair
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Service order registration
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Warranty
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Product care
+                </a>
+            </li>
+        </ul>
+        <ul class="aboutRainydays">
+            <span class="title">
+                ABOUT RAINYDAYS
+            </span>
+            <li>
+                <a href="#">
+                    Our history
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Our responsibility
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Loyalty program
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Career opportunities
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    5% for nature
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Our ambassadors
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Pro user
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Rainydays blog
+                </a>
+            </li>
+        </ul>
+        <ul class="whereToBuy">
+            <span class="title">
+                WHERE TO BUY
+            </span>
+            <li>
+                <a href="#">
+                    All Rainydays Stores
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Outlet
+                </a>
+            </li>
+        </ul>
+        <ul class="follow">
+            <span class="title">
+                FOLLOW RAINYDAYS
+            </span>
+            <li>
+                <i class="fa-brands fa-facebook-f" style="color: white"></i>
+                <a href="http://www.facebook.com" target="_blank">
+                    Facebook
+                </a>
+            </li>
+            <li>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <a href="http://www.twitter.com" target="_blank">Twitter</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                <a href="http://www.youtube.com" target="_blank">Youtube</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                <a href="http://www.linkedin.com" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <a href="http://www.instagram.com" target="_blank">Instagram</a>
+            </li>
+        </ul>
+        <ul class="info">
+            <span class="title">
+                INFO
+            </span>
+            <li>
+                <a href="#">
+                    Terms and conditions
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Cookie and privacy
+                </a>
+            </li>
+        </ul>
+        <span class="logoBottomLeft">
+            <img 
+                src="assets/images/logo/logogreen.svg" alt="Logo rainydays""/>
+            <p class="copyright">
+                © 2023 Rainydays.no 999 999 999 MVA
+            </p>
+        </span>
+    </footer> -->
 </main>
 </body>
 </html>

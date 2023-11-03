@@ -1,0 +1,341 @@
+:root {
+    --darkGray: #374151;
+    --gray: #909090;
+    --transparentBlack30: #0000004D;
+    --transparentBlack10: #0000001A;
+    --moonstone: #73A6AD4D;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.checkoutShopping {
+    margin: 0 35px;
+    color: var(--darkGray);
+}
+
+.checkoutShoppingTitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-left: -200px;
+}
+
+.checkoutProduct {
+    display: flex;
+    min-width: 360px;
+}
+
+.checkoutShoppingBag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkoutShoppingBag img{
+    width: 104px;
+    object-fit: contain;
+}
+
+.checkoutProductTextColor  {
+    margin: 12px 0 0 0;
+}
+
+.checkoutProductTextHeader {
+    display: flex;
+    margin-top: 12px;
+}
+
+.checkoutProductTextHeader h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.fa-circle-xmark {
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.checkoutProductTextSizePrice {
+    display: flex;
+    margin-top: 32px;
+}
+
+.checkoutProductTextSizePrice :nth-child(2) {
+    margin-left: auto;
+}
+
+.checkoutShipping, .checkoutTotal {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.checkoutShipping {
+    display: flex;
+    width: 390px;
+}
+
+.checkoutShipping :nth-child(2) {
+    margin-left: auto;
+}
+
+.checkoutTotal {
+    display: flex;
+    width: 390px;
+}
+
+.checkoutTotal :nth-child(2) {
+    margin-left: auto;
+}
+
+.checkoutInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkoutInformation h2{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.checkoutInformation input{
+    width: 360px;
+    height: 62px;
+    margin: 4px 0 16px 0;
+}
+
+.checkoutPayments {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.checkoutKlarna {
+    display: flex;
+    justify-content: center;
+}
+
+.checkoutKlarnaForm {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-top: 16px;
+    
+}
+
+.checkoutKlarnaBox {
+    width: 360px;
+    display: flex;
+    border: 1px solid var(--transparentBlack30);
+    border-bottom: 1px solid 0.5px var(--transparentBlack30);
+}
+
+.checkoutKlarnaBox input {
+    margin-left: 16px;
+    padding: 0;
+}
+
+.checkoutKlarnaBox p {
+    margin: 0 0 0 36px;
+    color: var(--transparentBlack30);
+}
+
+.checkoutIconCard {
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+.fa-credit-card {
+    margin-left: auto;
+}
+
+.checkoutKlarna img {
+    width: 50px;
+    height: 25px;
+}
+
+.checkoutKlarnaDaysBox {
+    border: 1px solid var(--transparentBlack30);
+    border-bottom: 1px solid 0.5px var(--transparentBlack30);
+}
+
+.checkoutKlarnaDaysBox input {
+    margin-left: 16px;
+    padding: 0;
+}
+
+.checkoutKlarnaDaysBox label {
+    margin: 0 0 0 4px;
+}
+
+.checkoutKlarnaDaysBox p {
+    margin: 0;
+    color: var(--transparentBlack30);
+}
+
+.checkoutKlarnaDaysLogo {
+    display: flex;
+    margin-top: 8px;
+}
+
+.checkoutKlarnaDaysList {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 86px;
+    background-color: var(--transparentBlack10);
+    font-size: 14px;
+}
+
+.checkoutKlarnaDaysList span {
+    font-weight: 600;
+}
+
+.checkoutKlarnaDaysList a {
+    margin-left: 2px;
+}
+
+.checkoutKlarnaDaysTerms {
+    margin: 8px 0 16px 16px;
+}
+
+.checkoutKlarnaInterest {
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.checkoutKlarnaInterest p {
+    margin: 0 0 16px 4px;
+}
+
+.checkoutInterestIconCard {
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+.checkoutKlarnaBoxPayments {
+    padding: 0 0 0 16px;
+    border: 1px solid var(--transparentBlack30);
+}
+
+#checkoutKlarnaOptions {
+    width: 90%;
+    border: none;
+    direction: rtl;
+    margin: auto 0;
+    padding: 16px 0;
+    color: #357DA6BF;
+    font-weight: 500;
+    text-align: center;
+}
+
+.checkoutBtn {
+    background-color: #4E6D92;
+    color: #FFF;
+    height: 48px;
+    margin-top: 24px;
+}
+
+.checkoutLoyalty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkoutLoyaltyProgram {
+    display: flex;
+    width: 430px;
+    margin-top: 24px;
+    padding: 0 35px;
+    border-top: 2px solid var(--moonstone);
+    border-bottom: 2px solid var(--moonstone);
+}
+
+.checkoutLoyaltyProgram h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.checkoutLoyaltyProgram p {
+    font-size: 0.75rem;
+    margin-top: 4px;
+}
+
+.checkoutLoyaltyProgram button {
+    font-size: 0.75rem;
+    margin-top: 24px;
+    width: 68px;
+    height: 32px;
+    background-color: #FFF;
+}
+
+.checkoutPaymentShipping {
+    padding: 0 35px;
+    font-size: 0.75rem;
+}
+
+.checkoutPaymentShipping p:nth-child(1) {
+    margin: 16px 0 0 0;  
+}
+
+.checkoutPaymentShipping p:nth-child(2) {
+    margin: 4px 0 24px 0;  
+}
+
+.checkoutPaymentShipping img {
+    width: 50px;
+    height: 25px;
+    object-fit: cover;
+    margin: 24px 0;
+}
+
+.checkoutPaymentShippingAcceptShip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkoutPaymentShippingShip img {
+    object-fit: contain;
+}
+
+@media only screen and (min-width: 1024px) {
+    .checkoutGridDesktop {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-areas: "info pay bag";
+    }
+
+    .checkoutShoppingBag {
+        margin-top: 40px;
+        grid-area: bag;
+    }
+
+    .checkoutInformation {
+        margin-left: 30px;
+        grid-area: info;
+    }
+
+    .checkoutKlarna {
+        margin-left: 20px;
+        margin-top: 41px;
+        grid-area: pay;
+    }
+
+    .checkoutPayments {
+        font-weight: 400;
+    }
+
+    .checkoutLoyaltyProgram {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+}
