@@ -10,6 +10,7 @@
       href="assets/images/logo/logogreen.svg"
     />
     <title>Rainydays | Jackets - Men</title>
+    <link rel="stylesheet" href="css/styles.css"/>
     <link rel="stylesheet" href="css/navbar.css"/>
     <link rel="stylesheet" href="css/breadcrumb.css"/>
     <link rel="stylesheet" href="css/products.css"/>
@@ -29,28 +30,53 @@
 <header>
     <nav class="navbar">
         <div class="navbarLeft">
-            <a href="index.html">
-                <img src="assets/images/logo/logoblack.svg"/>
+            <a href="#index.html">
+                <img src="assets/images/logo/logoblack.svg" alt="Rainydays logo"/>
             </a>
         </div>
         <div class="navbarCenter">
             <ul>
-                <li id="jackets"><a href="products.html">Jackets</a></li>
-                <li><a href="#">Pants</a></li>
-                <li><a href="#">Boots</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="#">Locations</a></li>
+                <li id="jackets">
+                    <a 
+                        href="products.html">
+                        Jackets
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Pants
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Boots
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                    Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Locations
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="navbarRight">
-            <a class="search" href="#">
+            <a class="search" href="#" aria-label="Search icon">
                 <i class="fa-solid fa-magnifying-glass" style="color: #374151;"></i>
             </a>
-            <a class="shoppingBag" href="#">
+            <a class="shoppingBag" href="checkout.html" aria-label="shoppingBag icon">
                 <i class="fa-solid fa-bag-shopping" style="color: #374151"></i>
             </a>
-            <a class="menu" href="#">
+            <a class="menu" href="#"aria-label="Burger menu icon">
                 <i class="fa-solid fa-bars" style="color: #374151"></i>
             </a>
         </div>
@@ -67,11 +93,12 @@
     <section class="grid">
     <div class="product">
         <a href="product.html" 
-            alt="Yellow raincoat">
+            alt="Yellow raincoat Drizzle Defender">
             <div class="image">
                 <img
                 src="assets/images/jackets/yellow_rain/yellow_rain_1.png"
                 height="398px"
+                alt="Yellow raincoat"
                 />
             </div>
         </a>
@@ -305,22 +332,25 @@
       </section>
     </main>
     <footer class="footer">
-        <form class="languageForm">
-            <label for="language"></label>
+        <form class="languageForm" aria-label="Select different language">
+            <label 
+                for="language"
+                aria-label="Select different language"></label>
                 <select name="language" id="language">
-                    <option>English</option>
-                    <option>Norwegian</option>
-                    <option>Swedish</option>
-                    <option>Suomi</option>
+                    <option aria-label="English">English</option>
+                    <option aria-label="Norwegian">Norwegian</option>
+                    <option aria-label="Swedish">Swedish</option>
+                    <option aria-label="Suomi">Suomi</option>
                 </select>
         </form>
-        <form class="currencyForm">
+        <form class="currencyForm" aria-label="Select different currency">
             <label for="currency"></label>
-                <select name="currency" id="currency">
-                    <option>Norway (NOK)</option>
-                    <option>English (GBP)</option>
-                    <option>Swedish (SEK)</option>
-                    <option>Suomi (EUR)</option>
+                <select name="currency" id="currency"
+                aria-label="Select different currency>
+                    <option aria-label="Norway (NOK)">Norway (NOK)</option>
+                    <option aria-label="English (GBP)">English (GBP)</option>
+                    <option aria-label="Swedish (SEK)">Swedish (SEK)</option>
+                    <option aria-label="Suomi (EUR)">Suomi (EUR)</option>
                 </select>
         </form>
         <span class="footerHr"></span>
@@ -352,7 +382,7 @@
             </label>
         </form>
         <ul class="shoppingHelp">
-            <span class="title">
+            <span class="title" aria-label="Title for list">
                 SHOPPING HELP
             </span>
             <li>
@@ -386,7 +416,7 @@
                 </a>
             </li>
         </ul>
-        <ul class="repairAndCare">
+        <ul class="repairAndCare" aria-label="Title for list">
             <span class="title">
                 REPAIR AND CARE
             </span>
@@ -412,7 +442,7 @@
             </li>
         </ul>
         <ul class="aboutRainydays">
-            <span class="title">
+            <span class="title" aria-label="Title for list">
                 ABOUT RAINYDAYS
             </span>
             <li>
@@ -457,7 +487,7 @@
             </li>
         </ul>
         <ul class="whereToBuy">
-            <span class="title">
+            <span class="title" aria-label="Title for list">
                 WHERE TO BUY
             </span>
             <li>
@@ -472,7 +502,7 @@
             </li>
         </ul>
         <ul class="follow">
-            <span class="title">
+            <span class="title" aria-label="Title for list">
                 FOLLOW RAINYDAYS
             </span>
             <li>
@@ -499,7 +529,7 @@
             </li>
         </ul>
         <ul class="info">
-            <span class="title">
+            <span class="title" aria-label="Title for list">
                 INFO
             </span>
             <li>
@@ -513,13 +543,13 @@
                 </a>
             </li>
         </ul>
-        <span class="logoBottomLeft">
-            <img 
+        <div class="logoBottomLeft">
+                <img 
                 src="assets/images/logo/logogreen.svg" alt="Logo rainydays""/>
             <p class="copyright">
                 © 2023 Rainydays.no 999 999 999 MVA
             </p>
-        </span>
+        </div>
     </footer>
   </body>
 </html>

@@ -1,0 +1,18 @@
+:root {
+    --darkGray: #374151;
+    --gray: #909090;
+    --transparentBlack30: #0000004D;
+    --transparentBlack10: #0000001A;
+    --moonstone: #73A6AD4D;
+    --blue: #4E6D92;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+}
