@@ -1,15 +1,3 @@
-:root {
-    --darkGray: #374151;
-    --gray: #909090;
-    --transparentBlack30: #0000004D;
-    --transparentBlack10: #0000001A
-}
-
-* {
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
 .mainContact {
     margin: 0 70px;
     color: var(--darkGray);

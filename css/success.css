@@ -1,11 +1,3 @@
-:root {
-    --darkGray: #374151;
-    --gray: #909090;
-    --transparentBlack30: #0000004D;
-    --transparentBlack10: #0000001A;
-    --moonstone: #73A6AD4D;
-}
-
 main {
     margin: 0 35px;
     color: var(--darkGray);
