@@ -3,7 +3,7 @@
     color: var(--darkGray);
 }
 
-.checkoutShoppingTitle {
+.checkoutShoppingBag h1 {
     font-size: 1.25rem;
     font-weight: 400;
     margin-left: -200px;
@@ -179,7 +179,7 @@
     font-size: 14px;
 }
 
-.checkoutKlarnaDaysList span {
+.checkoutKlarnaDaysList label {
     font-weight: 600;
 }
 
@@ -227,16 +227,16 @@
     justify-content: center;
     background-color: var(--blue);
     margin-top: 24px;
+    width: 360px;
+    height: 56px;
+    font-size: 2.25rem;
     border: none;
     cursor: pointer;
 }
 
-.checkoutBtnInput {
-    font-size: 2.25rem;
-    background: none;
-    border: none;
+.checkoutBtn a {
+    text-decoration: none;
     color: #FFF;
-    cursor: pointer;
 }
 
 .checkoutLoyalty {
