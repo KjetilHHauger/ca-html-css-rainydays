@@ -82,10 +82,9 @@ left: 4px;
     border-radius: 0;
     border: 1px solid var(--gray);
     color: var(--darkGray);
-    resize: auto;
     resize: none;
     height: 15em;
-    width: 88em;
+    width: max(100%, 360px );
 }
 
 .faqContactSubmit {
