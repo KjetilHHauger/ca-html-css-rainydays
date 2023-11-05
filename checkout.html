@@ -9,8 +9,7 @@
     <link
       rel="icon"
       sizes="32x32"
-      href="assets/images/logo/logogreen.svg"
-    />
+      href="assets/images/logo/logogreen.svg">
     <title>Rainydays | Checkout</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -115,36 +114,36 @@
                 <li>Checkout</li>
             </ul>
         </div>
-        <section class="checkoutGridDesktop">
+        <div class="checkoutGridDesktop">
         <section class="checkoutShopping">
             <div class="checkoutShoppingBag">
-                <h1 class="checkoutShoppingTitle">Shopping bag (2)</h1>
+                <h1>Shopping bag (2)</h1>
                 <div class="checkoutProduct">
                     <img src="assets/images/jackets/yellow_rain/yellow_rain_1.png" alt="Yellow rain jacket">
                     <div class="checkoutProductText">
-                        <span class="checkoutProductTextHeader">
+                        <div class="checkoutProductTextHeader">
                             <h2>Drizzle defender</h2>
                             <i class="fa-regular fa-circle-xmark" style="color: #374151;"></i>
-                        </span>
+                        </div>
                         <p class="checkoutProductTextColor">Yellow</p>
-                        <span class="checkoutProductTextSizePrice">
+                        <div class="checkoutProductTextSizePrice">
                             <p>S</p>
                             <p>2 000 NOK</p>
-                        </span>
+                        </div>
                     </div>
                 </div>
                 <div class="checkoutProduct">
                     <img src="assets/images/jackets/red_rain/red_rain_1.png" alt="Red rain jacket">
                     <div class="checkoutProductText">
-                        <span class="checkoutProductTextHeader">
+                        <div class="checkoutProductTextHeader">
                             <h2>Drizzle defender</h2>
                             <i class="fa-regular fa-circle-xmark" style="color: #374151;"></i>
-                        </span>
+                        </div>
                         <p class="checkoutProductTextColor">Red</p>
-                        <span class="checkoutProductTextSizePrice">
+                        <div class="checkoutProductTextSizePrice">
                             <p>XL</p>
                             <p>2 000 NOK</p>
-                        </span>
+                        </div>
                     </div>
                 </div>
                 <span class="checkoutShipping">
@@ -175,8 +174,7 @@
                 <input 
                     type="text" 
                     placeholder="Ola Norman" 
-                    id="checkoutName"
-                />
+                    id="checkoutName">
                 <br>
                 <label for="checkoutCountry">
                     Country
@@ -185,8 +183,7 @@
                 <input 
                     type="text" 
                     placeholder="Norway" 
-                    id="checkoutCountry"
-                />
+                    id="checkoutCountry">
                 <br>
                 <label for="checkoutPostalCode">
                     Postal code
@@ -195,8 +192,7 @@
                 <input 
                     type="text" 
                     placeholder="0000" 
-                    id="checkoutPostalCode"
-                />
+                    id="checkoutPostalCode">
                 <br>
                 <label for="checkoutStreet">
                     Street
@@ -205,8 +201,7 @@
                 <input 
                     type="text" 
                     placeholder="Karl Johans gate 1" 
-                    id="checkoutStreet"
-                />
+                    id="checkoutStreet">
                 <br>
                 <label for="checkoutEmail">
                     E-mail
@@ -215,23 +210,24 @@
                 <input 
                     type="email" 
                     placeholder="Ola@norman.no" 
-                    id="checkoutEmail"
-                />
+                    id="checkoutEmail">
             </form>
         </section>
-        <section class="checkoutKlarna">
+        <div class="checkoutKlarna">
             <form class="checkoutKlarnaForm">
                 <div class="checkoutPayments">Payments</div>
                 <div class="checkoutKlarnaBox">
                     <div>
                         <input 
-                        type="radio" 
-                        name="checkoutKlarnaCard" 
-                        id="checkoutKlarnaCard">
+                            type="radio" 
+                            name="checkoutKlarnaCard" 
+                            id="checkoutKlarnaCard">
                         <label for="checkoutKlarnaCard">
                             Pay with card
-                            <p>Add card details</p>
                         </label>
+                        <p>
+                            Add card details
+                        </p>
                     </div>
                     <div class="checkoutIconCard">
                     <i class="fa-solid fa-credit-card" style="color: #374151;"></i>
@@ -240,16 +236,19 @@
                 <div class="checkoutKlarnaDaysBox">
                     <div class="checkoutKlarnaDaysLogo">
                         <input 
-                        type="radio" 
-                        name="checkoutKlarnaDays" id="checkoutKlarnaDays">
+                            type="radio" 
+                            name="checkoutKlarnaDays" 
+                            id="checkoutKlarnaDays">
                         <label for="checkoutKlarnaDays">
                             Pay in 30 days
-                            <p>
-                                Get what you love first
-                            </p>
                         </label>
+                        <p>
+                            Get what you love first
+                        </p>
                         <div class="checkoutIconCard">
-                            <img src="assets/images/payment/klarna.png" alt="Klarna logo">
+                            <img 
+                                src="assets/images/payment/klarna.png" 
+                                alt="Klarna logo">
                         </div>
                     </div>
                     <div class="checkoutKlarnaDaysList">
@@ -261,7 +260,11 @@
                                     without interest of fees.
                             </li>
                             <li>
-                                Manage payments in the<a href="https://play.google.com/store/apps/details?id=com.myklarnamobile&hl=no&gl=US">Klarna app.</a>
+                                Manage payments in the
+                                <a 
+                                    href="https://play.google.com/store/apps/details?id=com.myklarnamobile&hl=no&gl=US">
+                                    Klarna app.
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -274,8 +277,10 @@
                 </div>
                 <div class="checkoutKlarnaBox">
                     <div class="checkoutKlarnaInterest">
-                        <input type="radio" name="checkoutKlarnaInterestInput"
-                        id="checkoutKlarnaInterestInput">
+                        <input 
+                            type="radio" 
+                            name="checkoutKlarnaInterestInput"
+                            id="checkoutKlarnaInterestInput">
                             <span>
                                 <label for="checkoutKlarnaInterestInput">
                                     4 interest-free payments
@@ -285,7 +290,9 @@
                                 </label>
                             </span>
                         <div class="checkoutInterestIconCard">
-                            <img src="assets/images/payment/klarna.png" alt="Klarna logo">
+                            <img 
+                                src="assets/images/payment/klarna.png" 
+                                alt="Klarna logo">
                         </div>
                     </div>
                 </div>
@@ -300,12 +307,12 @@
                 </div>
                 <div class="checkoutBtn">
                     <a href="success.html">
-                        <input class="checkoutBtnInput" type="button" value="Checkout"/>
+                            Checkout
                     </a>
                 </div>
             </form>
-        </section>
-        </section>
+        </div>
+        </div>
         <section class="checkoutLoyalty">
             <div class="checkoutLoyaltyProgram">
                 <div class="checkoutLoyaltyLeft">
