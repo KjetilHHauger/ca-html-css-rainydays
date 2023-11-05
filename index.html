@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior: smooth">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -26,95 +26,115 @@
     ></script>
 </head>
 <body>
-<header>
-    <nav class="navbar">
-        <div class="navbarLeft">
-            <a href="#index.html">
-                <img src="assets/images/logo/logoblack.svg" alt="Rainydays logo"/>
-            </a>
-        </div>
-        <div class="navbarCenter">
-            <ul>
-                <li id="jackets">
-                    <a 
-                        href="products.html">
-                        Jackets
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Pants
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Boots
-                    </a>
-                </li>
-                <li>
-                    <a href="about.html">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="contact.html">
-                    Contact
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Locations
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="navbarRight">
-            <a class="search" href="#" aria-label="Search icon">
-                <i class="fa-solid fa-magnifying-glass" style="color: #374151;"></i>
-            </a>
-            <a class="shoppingBag" href="checkout.html" aria-label="shoppingBag icon">
-                <i class="fa-solid fa-bag-shopping" style="color: #374151"></i>
-            </a>
-            <a class="menu" href="#"aria-label="Burger menu icon">
-                <i class="fa-solid fa-bars" style="color: #374151"></i>
-            </a>
-        </div>
-    </nav>
-</header>
-<main class="content">
-    <section class="mainContent">
-        <div class="men">
-            <div class="mainContentImage">
-                <img src="assets/images/raincoat_male_1.gif" alt="Men raincoats"/>
+    <header>
+        <nav class="navbar">
+            <div class="navbarLeft">
+                <a href="index.html">
+                    <img src="assets/images/logo/logoblack.svg" alt="Rainydays logo"/>
+                </a>
             </div>
-            <div class="mainContentMen">
-                <h1>Men</h1>
+            <div class="navbarCenter">
+                <ul>
+                    <li id="jackets">
+                        <a 
+                            href="products.html">
+                            Jackets
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Pants
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Boots
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                        Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Locations
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <picture class="women">
-            <img src="assets/images/raincoat_female_2.gif" alt="Women raincoat">
-            <h1>Women</h1>
-        </picture>
-    </section>
-    <section class="hero">
-            <h2>
-                Pushing the
-            </h2>
-            <span class="comfort">
-                comfort zone
-            </span>
-            <picture class="heroImage">
-                <img 
-                class="heroImageMobile"
-                src="assets/images/pushing_mobile.png"
-                alt="Women in heavy rain">
-                <img
-                class="heroImageDesktop" 
-                src="assets/images/pushing_desktop.png"
-                alt="Women in heavy rain">
+            <div class="navbarRight">
+                <a class="search" href="#" aria-label="Search icon">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #374151;"></i>
+                </a>
+                <a class="shoppingBag" href="checkout.html" aria-label="shoppingBag icon">
+                    <i class="fa-solid fa-bag-shopping" style="color: #374151"></i>
+                </a>
+            </div>
+            <section class="navDropdown">
+                <div class="test">
+                <button class="navDropdownBtn"><i class="fa-solid fa-bars" style="color: #374151"></i></button>
+                </div>
+                <div class="navDropdownContent">
+                    <div class="navDropdownContentInput">
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <div class="navDropdownContentMain">
+                        <div class="navDropdownContentLeft">
+                            <a href="products.html">Jackets</a>
+                            <a href="#">Pants</a>
+                            <a href="#">Boots</a>
+                        </div>
+                        <div class="navDropdownContentRight">
+                            <a href="about.html">About</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="#">Locations</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="mainContent">
+            <div class="men">
+                <div class="mainContentImage">
+                    <img src="assets/images/raincoat_male_1.gif" alt="Men raincoats"/>
+                </div>
+                <div class="mainContentMen">
+                    <h1>Men</h1>
+                </div>
+            </div>
+            <picture class="women">
+                <img src="assets/images/raincoat_female_2.gif" alt="Women raincoat">
+                <h1>Women</h1>
             </picture>
         </section>
-    </section>
+        <section class="hero">
+                <h2>
+                    Pushing the
+                </h2>
+                <span class="comfort">
+                    comfort zone
+                </span>
+                <picture class="heroImage">
+                    <img 
+                    class="heroImageMobile"
+                    src="assets/images/pushing_mobile.png"
+                    alt="Women in heavy rain">
+                    <img
+                    class="heroImageDesktop" 
+                    src="assets/images/pushing_desktop.png"
+                    alt="Women in heavy rain">
+                </picture>
+            </section>
+        </section>
     </main>
     <footer class="footer">
         <form class="languageForm" aria-label="Select different language">
