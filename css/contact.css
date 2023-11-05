@@ -66,6 +66,7 @@ left: 4px;
 
 .phoneFlag select {
     border: none;
+    cursor: pointer;
 }
 
 .thirdTwo {
@@ -85,6 +86,10 @@ left: 4px;
     resize: none;
     height: 15em;
     width: max(100%, 360px );
+}
+
+button {
+    cursor: pointer;
 }
 
 .faqContactSubmit {
@@ -110,7 +115,8 @@ left: 4px;
 
 .questions select {
     width: 360px;
-    border: none;  
+    border: none; 
+    cursor: pointer; 
 }
 
 .contactSubmit {
