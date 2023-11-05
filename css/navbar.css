@@ -37,7 +37,7 @@ header {
     margin-left: auto;
 }
 
-.test {
+.navDropdownBtnBurger {
     height: 84px;
     
 }
@@ -48,7 +48,6 @@ header {
     justify-content: center;
     align-items: center;
     margin-right: 35px;
-    /* margin-left: auto; */
     background-color: #fff;
     color: #fff;
     border: none;
@@ -75,7 +74,7 @@ header {
     display: block;
 }
 
-.navDropdownContent a:hover {
+.navDropdownContent a:hover:focus {
     background-color: var(--moonstone);
 }
 
