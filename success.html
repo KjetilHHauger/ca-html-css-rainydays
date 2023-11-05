@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior: smooth">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Congratulation on you purchases, hope you enjoy wearing them as much as we did making them for you.">
     <meta name="author" content="Kjetil Harneshaug Hauger">
     <meta name="keywords" content="success">
     <link
       rel="icon"
-      image="image/img"
       sizes="32x32"
       href="assets/images/logo/logogreen.svg"
     />
@@ -30,172 +29,170 @@
     ></script>
 </head>
 <body>
-<header>
-    <nav class="navbar">
-        <div class="navbarLeft">
-            <a href="index.html">
-                <img src="assets/images/logo/logoblack.svg" alt="Rainydays logo"/>
-            </a>
-        </div>
-        <div class="navbarCenter">
-            <ul>
-                <li id="jackets">
-                    <a 
-                        href="products.html">
-                        Jackets
-                    </a>
-                </li>
+    <header>
+        <nav class="navbar">
+            <div class="navbarLeft">
+                <a href="index.html">
+                    <img src="assets/images/logo/logoblack.svg" alt="Rainydays logo"/>
+                </a>
+            </div>
+            <div class="navbarCenter">
+                <ul>
+                    <li id="jackets">
+                        <a 
+                            href="products.html">
+                            Jackets
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Pants
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Boots
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                        Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Locations
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbarRight">
+                <a class="search" href="#" aria-label="Search icon">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #374151;"></i>
+                </a>
+                <a class="shoppingBag" href="checkout.html" aria-label="shoppingBag icon">
+                    <i class="fa-solid fa-bag-shopping" style="color: #374151"></i>
+                </a>
+            </div>
+            <section class="navDropdown">
+                <div class="test">
+                <button class="navDropdownBtn"><i class="fa-solid fa-bars" style="color: #374151"></i></button>
+                </div>
+                <div class="navDropdownContent">
+                    <div class="navDropdownContentInput">
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <div class="navDropdownContentMain">
+                        <div class="navDropdownContentLeft">
+                            <a href="products.html">Jackets</a>
+                            <a href="#">Pants</a>
+                            <a href="#">Boots</a>
+                        </div>
+                        <div class="navDropdownContentRight">
+                            <a href="about.html">About</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="#">Locations</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        </nav>
+    </header>
+    <main class="successContent">
+        <div class="breadcrumbContainer">
+            <ul class="breadcrumb">
                 <li>
-                    <a href="#">
-                        Pants
+                    <a href="index.html">
+                        Home
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        Boots
-                    </a>
-                </li>
-                <li>
-                    <a href="about.html">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="contact.html">
-                    Contact
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Locations
-                    </a>
-                </li>
+                <li>Success</li>
             </ul>
         </div>
-        <div class="navbarRight">
-            <a class="search" href="#" aria-label="Search icon">
-                <i class="fa-solid fa-magnifying-glass" style="color: #374151;"></i>
-            </a>
-            <a class="shoppingBag" href="checkout.html" aria-label="shoppingBag icon">
-                <i class="fa-solid fa-bag-shopping" style="color: #374151"></i>
-            </a>
-        </div>
-        <section class="navDropdown">
-            <div class="test">
-            <button class="navDropdownBtn"><i class="fa-solid fa-bars" style="color: #374151"></i></button>
+        <section class="successMain">
+            <div class="successKlarnaImage">
+                <img src="assets/images/logo/klarnaSuccess.png" alt="Payment success">
             </div>
-            <div class="navDropdownContent">
-                <div class="navDropdownContentInput">
-                    <input type="text" placeholder="Search...">
+            <div class="successOrderPlaced">
+                <h1>
+                    Your order has been placed.
+                </h1>
+                <p>
+                    E-mail with payment instructions has been
+                    sent to your email, Hesh@Noroff.no.
+                </p>
+            </div>
+            <hr class="successHrMobile">
+            <div class="successOrderDetails">
+                <div class="successOrderDetailsLeft">
+                    <ul>
+                        <li>Order details</li>
+                        <li>Total amount</li>
+                        <li>Order number</li>
+                    </ul>
                 </div>
-                <div class="navDropdownContentMain">
-                    <div class="navDropdownContentLeft">
-                        <a href="products.html">Jackets</a>
-                        <a href="#">Pants</a>
-                        <a href="#">Boots</a>
+                <div class="successOrderDetailsRight">
+                    <ul>
+                        <li>View details</li>
+                        <li>4 000 NOK</li>
+                        <li>101001011101</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="successHrDesktop">
+            <div class="successNeverMiss">
+                <h2>
+                    Never miss a payment.
+                </h2>
+                <p>
+                    Get the Klarna app to receive
+                    automatic payment reminders.
+                </p>
+                <div class="successKlarna">
+                    <div class="successKlarnaApp">
+                        Get the Klarna app
                     </div>
-                    <div class="navDropdownContentRight">
-                        <a href="about.html">About</a>
-                        <a href="contact.html">Contact</a>
-                        <a href="#">Locations</a>
+                    <div>
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.82667 0V16H0V0H3.82667ZM13.3767 0C13.3767 3.3552 12.0575 6.484 9.6975 8.8544L9.46583 9.0808L14.7517 16H10.0283L4.28417 8.48L5.76667 7.4144C8.14833 5.7024 9.54583 3.112 9.63083 0.2752L9.635 0H13.3767ZM17.9167 12C18.4692 12 18.9991 12.2107 19.3898 12.5858C19.7805 12.9609 20 13.4696 20 14C20 14.5304 19.7805 15.0391 19.3898 15.4142C18.9991 15.7893 18.4692 16 17.9167 16C17.3641 16 16.8342 15.7893 16.4435 15.4142C16.0528 15.0391 15.8333 14.5304 15.8333 14C15.8333 13.4696 16.0528 12.9609 16.4435 12.5858C16.8342 12.2107 17.3641 12 17.9167 12Z" fill="black"/>
+                            </svg>
+                            
                     </div>
                 </div>
             </div>
-            
         </section>
-    </nav>
-</header>
-<main class="successContent">
-    <div class="breadcrumbContainer">
-        <ul class="breadcrumb">
-            <li>
-                <a href="index.html">
-                    Home
-                </a>
-            </li>
-            <li>Success</li>
-        </ul>
-    </div>
-    <section class="successMain">
-        <div class="successKlarnaImage">
-            <img src="assets/images/logo/klarnaSuccess.png" alt="Payment success">
-        </div>
-        <div class="successOrderPlaced">
-            <h1>
-                Your order has been placed.
-            </h1>
-            <p>
-                E-mail with payment instructions has been
-                sent to your email, Hesh@Noroff.no.
-            </p>
-        </div>
-        <hr class="successHrMobile">
-        <div class="successOrderDetails">
-            <div class="successOrderDetailsLeft">
-                <ul>
-                    <li>Order details</li>
-                    <li>Total amount</li>
-                    <li>Order number</li>
-                </ul>
-            </div>
-            <div class="successOrderDetailsRight">
-                <ul>
-                    <li>View details</li>
-                    <li>4 000 NOK</li>
-                    <li>101001011101</li>
-                </ul>
-            </div>
-        </div>
-        <hr class="successHrDesktop">
-        <div class="successNeverMiss">
-            <h2>
-                Never miss a payment.
-            </h2>
-            <p>
-                Get the Klarna app to receive
-                automatic payment reminders.
-            </p>
-            <div class="successKlarna">
-                <div class="successKlarnaApp">
-                    Get the Klarna app
-                </div>
-                <div>
-                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.82667 0V16H0V0H3.82667ZM13.3767 0C13.3767 3.3552 12.0575 6.484 9.6975 8.8544L9.46583 9.0808L14.7517 16H10.0283L4.28417 8.48L5.76667 7.4144C8.14833 5.7024 9.54583 3.112 9.63083 0.2752L9.635 0H13.3767ZM17.9167 12C18.4692 12 18.9991 12.2107 19.3898 12.5858C19.7805 12.9609 20 13.4696 20 14C20 14.5304 19.7805 15.0391 19.3898 15.4142C18.9991 15.7893 18.4692 16 17.9167 16C17.3641 16 16.8342 15.7893 16.4435 15.4142C16.0528 15.0391 15.8333 14.5304 15.8333 14C15.8333 13.4696 16.0528 12.9609 16.4435 12.5858C16.8342 12.2107 17.3641 12 17.9167 12Z" fill="black"/>
-                        </svg>
-                        
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
+    </main>
     <footer class="footer">
         <form class="languageForm" aria-label="Select different language">
             <label 
-                for="language"
-                aria-label="Select different language"></label>
+                for="language"></label>
                 <select name="language" id="language">
-                    <option aria-label="English">English</option>
-                    <option aria-label="Norwegian">Norwegian</option>
-                    <option aria-label="Swedish">Swedish</option>
-                    <option aria-label="Suomi">Suomi</option>
+                    <option>English</option>
+                    <option>Norwegian</option>
+                    <option>Swedish</option>
+                    <option>Suomi</option>
                 </select>
         </form>
-        <form class="currencyForm" aria-label="Select different currency">
+        <form class="currencyForm">
             <label for="currency"></label>
                 <select name="currency" id="currency"
-                aria-label="Select different currency>
-                    <option aria-label="Norway (NOK)">Norway (NOK)</option>
-                    <option aria-label="English (GBP)">English (GBP)</option>
-                    <option aria-label="Swedish (SEK)">Swedish (SEK)</option>
-                    <option aria-label="Suomi (EUR)">Suomi (EUR)</option>
+                aria-label="Select different currency">
+                    <option>Norway (NOK)</option>
+                    <option>English (GBP)</option>
+                    <option>Swedish (SEK)</option>
+                    <option>Suomi (EUR)</option>
                 </select>
         </form>
         <span class="footerHr"></span>
         <p class="warrantyText">
             Get 7 years warranty, earn cash points on all-full price purchases, sign up for product testing and join in on exclusive adventures and events.
         </p>
-        <!-- Sign up button -->
         <span class="signUp">
             <a href="#">
                 <button class="signUpBtn">
