@@ -32,10 +32,18 @@
     background-color: rgb(255 255 255 / 90%);
 }
 
-.men .women{
+.men .women {
     display: flex;
     flex-wrap: wrap;
 }
+
+.mainContent a {
+    text-decoration: none;
+}
+
+/* .women a {
+    text-decoration: none;
+} */
 
 .men h1 {
     justify-content: center;
