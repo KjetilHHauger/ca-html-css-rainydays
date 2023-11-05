@@ -30,6 +30,10 @@
     border: none;
 }
 
+select {
+    cursor: pointer;
+}
+
 .languageForm {
     margin-top: 32px;
     margin-left: 35px;
