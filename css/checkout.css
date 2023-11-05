@@ -236,6 +236,7 @@
     background: none;
     border: none;
     color: #FFF;
+    cursor: pointer;
 }
 
 .checkoutLoyalty {
