@@ -17,6 +17,10 @@
     margin-bottom: 24px;
 }
 
+.product img {
+    height: 398px;
+}
+
 .product h2 {
     font-size: 1.25rem;
     font-weight: 600;
