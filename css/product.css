@@ -43,6 +43,7 @@ body {
     background-color: #978a8a;
     border: none;
     color: #FFF;
+    cursor: pointer;
 }
 
 .hrTop {
@@ -71,7 +72,11 @@ body {
     
 }
 
-/* .circleYellow {
+.yellow:hover, .petrolBlue:hover, .red:hover, .limaBeanGreen:hover {
+    border: 5px solid var(--gray);
+}
+
+/* .circle:hover {
     width: 24px;
     height: 24px;
     border: 1px solid #909090;
@@ -82,38 +87,29 @@ body {
     left: -2px;
 } */
 
-.yellow {
+.yellow, .petrolBlue, .red, .limaBeanGreen {
     width: 20px;
     height: 20px;
-    background-color: #EB9F30;
     border-radius: 50%;
     position: relative;
 }
 
+.yellow {
+    background-color: #EB9F30; 
+}
+
 .petrolBlue {
-    width: 20px;
-    height: 20px;
     background-color: #1E565C;
-    border-radius: 50%;
-    position: relative;
     margin-left: 8px;
 }
 
 .red {
-    width: 20px;
-    height: 20px;
     background-color: #EA0F0F;
-    border-radius: 50%;
-    position: relative;
     margin-left: 8px;
 }
 
 .limaBeanGreen {
-    width: 20px;
-    height: 20px;
     background-color: #C0C44B;
-    border-radius: 50%;
-    position: relative;
     margin-left: 8px;
 }
 
@@ -150,7 +146,7 @@ body {
     display: none;
 }
 
-.small {
+.small, .medium, .large, .extraLarge {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,33 +155,24 @@ body {
     border: 1px solid var(--gray);
 }
 
+.small:hover, .medium:hover, .large:hover, .extraLarge:hover {
+    background-color: var(--moonstone);
+}
+
+.small:active, .medium:active, .large:active, .extraLarge:active {
+    background-color: var(--blue);
+    color: #fff;
+}
+
 .medium {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 24px;
-    height: 24px;
-    /* border: 1px solid var(--gray); */
     margin-left: 12px;
 }
 
 .large {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 24px;
-    height: 24px;
-    /* border: 1px solid var(--gray); */
     margin-left: 12px;
 }
 
 .extraLarge {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 24px;
-    height: 24px;
-    /* border: 1px solid var(--gray); */
     margin-left: 12px;
 }
 
