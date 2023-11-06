@@ -180,6 +180,10 @@ button {
 }
 
 @media only screen and (max-width: 640px) {
+    .mainContact {
+        margin: 0 35px;
+    }
+    
     .firstTwo {
         display: flex;
         flex-direction: column;
