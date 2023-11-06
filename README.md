@@ -6,3 +6,7 @@ The site is for a company that makes raincoats.
 Website has index, product multiple and single page, about, checkout, success.
 
 I used HTML for page structur and CSS to make the page look good
+
+The site draws inspiration from 
+  https://stutterheim.com/
+  https://www.norrona.com/
