@@ -52,7 +52,7 @@
     
 }
 
-.hero h2 {
+.hero h3 {
     position: absolute;
     font-size: 36px;
     letter-spacing: -3%;
@@ -113,17 +113,19 @@
         width: 100vw;
     }
 
-    .hero h2 {
+    .hero h3 {
         margin-top: 173px;
+        width: 400px;
         margin-right: 192px;
-        margin-left: 55%;
-        font-size: 64px;
+        margin-left: 58%;
+        font-size: 46px;
+        font-weight: 400;
     }
     
     .comfort {
         margin-top: 275px;
         margin-left: 60%;
-        font-size: 80px;
-        width: 601px;
+        font-size: 60px;
+        width: auto;
     }
 }
